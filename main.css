@@ -1,0 +1,186 @@
+.section{
+  color: blue;
+  height: 100%;
+  width: 80%;
+  overflow-y: auto;
+  overflow-x: inherit;
+  border: 2px solid black;
+}
+.e-name{
+  margin: 0px 0px 0px 0px;
+  color:green;
+}
+.event{
+  background-color:silver;
+  border: 1px solid black;
+  padding-bottom: 19px;
+}
+.time{
+  color: purple;
+  margin: 0px 10px 0px 0px;
+}
+.location{
+  color: darkblue;
+  margin: 0px 10px 0px 0px;
+  text-decoration: underline;
+}
+
+.middle{
+  display: inline;
+  padding-left: 0px;
+  padding-bottom: 200px;
+
+}
+.a:hover{
+  background-color: darkblue;
+  color:red;
+}
+.d:hover{
+  background-color: darkblue;
+  color:red;
+}
+.a{
+  display: block;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  background-color: green;
+  border-radius: 15px;
+  border-style: 1px solid black;
+  border-width: 1px;
+  margin-right: 35%;
+  margin-left: 2%;
+}
+.b{
+  display: block;
+  padding: 0px 0px 0px 0px;
+  text-decoration: underline;
+}
+.bottom{
+  display: inline;
+  padding-left: 0px;
+  width:100%;
+  right: 0;
+  left: 0;
+
+}
+.c{
+  display: block;
+  display: inline;
+  text-decoration: underline;
+  font-size: 5%;
+  float:left;
+  padding-top: 5px;x
+
+}
+.d{
+  display: block;
+  display: inline;
+  float: right;
+}
+.desc{
+  word-break: break-word;
+}
+
+.leftside, .rightside{
+  padding-top: 2vh;
+  height: 90vh;
+  width: 100%;
+}
+
+.leftside{
+  background: white;
+}
+
+.rightside{
+  background: gray;
+}
+
+.rightpadding{
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 4%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.left {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav a.right {
+  float: right;
+  color: #f2f2f2;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
